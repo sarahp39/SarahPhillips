@@ -40,13 +40,13 @@ class NavBar extends React.Component {
       <Nav className="navbar navbar-inverse" id ="navbarApp" role = "navigation">
         <ul className="nav navbar-nav">
           <li className="nav-item">
-            <Link aria-label="Home button" to="/home" activeClassName="activeLink" className="nav-link">Home</Link>
+            <Link aria-label="Home button" to="/Home" activeClassName="activeLink" className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <Link aria-label="Explore button" to="/explore" activeClassName="activeLink" className="nav-link">Designs</Link>
+            <Link aria-label="Projects button" to="/Projects" activeClassName="activeLink" className="nav-link">Projects</Link>
           </li>
           <li className="nav-item">
-            <Link aria-label="Adventure button" to="/adventure" activeClassName="activeLink" className="nav-link">Resume</Link>
+            <Link aria-label="Resume button" to="/Resume" activeClassName="activeLink" className="nav-link">Resume</Link>
           </li>
         </ul>
       </Nav>
